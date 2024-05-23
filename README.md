@@ -1,6 +1,6 @@
 # privileged
 
-An exmaple of doing a bad thing to an unsecured container.
+An example of doing a bad thing to an unsecured container.
 
 ## Bad thing
 
