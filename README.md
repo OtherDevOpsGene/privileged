@@ -4,7 +4,7 @@ An exmaple of doing a bad thing to an unsecured container.
 
 ## Bad thing
 
-``shell
+```shell
 cd ~/git/privileged
 docker build -t privileged:latest .
 docker run --rm -it --privileged privileged:latest bash
